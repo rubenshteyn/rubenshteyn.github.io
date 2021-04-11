@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'MuseoSansCyrl_700';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/MuseoSansCyrl_2.woff2") format('woff2'),
+         url("../fonts/MuseoSansCyrl_2.woff") format('woff');
+  }
+
+  @font-face {
+    font-family: 'MuseoSansCyrl_300';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/museo_sans_cyrl_300.woff") format('woff'),
+         url("../fonts/museo_sans_cyrl_300.woff2") format('woff2');
+  }
+
+ /* styles */
+
+ html {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: center 0% / cover url("../img/background.png");
+    /* object-fit: contain; */
+}
+
+.container {
+    max-width: 2078px;
+    padding: 0 155px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 125px;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #2b2e33;
+}
+
+.header__block-logo {
+    max-width: 270px;
+    padding: 20px 20px 30px 20px;
+    margin-right: auto;
+    background: left top / 5% no-repeat url("../img/arrow_top-left.png"), left bottom / 5% no-repeat url("../img/arrow_bottom-left.png"), right bottom / 5% no-repeat url("../img/arrow_bottom-right.png"), right top / 5% no-repeat url("../img/arrow_top-right.png"), left / 1% no-repeat url("../img/left.png"), right / 1% no-repeat url("../img/left.png");
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-item__link {
+    font-family: 'MuseoSansCyrl_300';
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-right: 39px;
+    color: #c2c2c3;
+}
+
+.header__nav-item__link:hover {
+    color: #898889;
+    border-bottom: 1px solid #898889;
+    transition: ease 0.5s color;
+}
+
+/* section__adventure */
+
+.section__adventure-p {
+    display: block;
+    font-family: 'MuseoSansCyrl_300';
+    font-size: 25px;
+    background: linear-gradient(45deg, #fff 33%, #ff4800 66%, #ff4800);
+    margin-bottom: 86px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     color: #fff;
+}
+
+.section__adventure-heading {
+  /* max-width: 448px; */
+  font-family: 'MuseoSansCyrl_700';
+  clip-path: circle(315px at 33% -137%);
+  font-size: 60px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #fff 33%, #ff4800 66%, #ff4800);
+  color: #fff;
+}
+
+.section__adventure-block__link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'MuseoSansCyrl_300';
+    border: 1px solid #274067;
+    clip-path: ellipse(204px 19px at center);
+    color: #828388;
+    background: 121% 121% / 32% no-repeat url(../img/link_arrow.png), -21% -18% / 32% no-repeat url(../img/link_arrow_bottom.png);   
+}
+
+/* section__data */
+
+.section__data {
+    display: flex;
+    max-width: 410px;
+    flex-wrap: wrap;
+}
+
+.section__data-link {
+    font-family: 'MuseoSansCyrl_300';
+    width: 150px;
+    min-height: 120px;
+    text-align: center;
+    color: #aeaeae;
+    margin-right: 13px;
+    padding-top: 20px;
+    margin-bottom: 13px;
+    background: rgba(174, 174, 174, 0.03);
+    /* clip-path: ellipse(204px 19px at center) */
+}
+
+.section__data-link:hover {
+  border-right: 1px solid rgba(174, 174 ,174, 1);
+  border-bottom: 1px solid rgba(174, 174 ,174, 1);
+  background-color: rgba(174, 174, 174, 0.25);
+  transition: ease 0.5s;
+}
+
+.section__data-link__number {
+    font-family: 'MuseoSansCyrl_700';
+    font-size: 47px;
+    margin-top: 10px;
+    color: #ebebeb;
+}
+
+.section__data-link_span {
+    font-size: 15px;
+}
+
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1052px;
+    }
+
+    /* header */
+
+    .header__nav-item__link {
+        font-size: 10px;
+    }
+
+    /* section__adventure */
+
+    .section__adventure-heading {
+        clip-path: none;
+    }
+}
+
+@media (max-width: 1080px) {
+    .section__data-link {
+        max-width: 100%;
+        min-height: 0;
+    }
+
+    .section__data {
+        max-width: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 970px;
+        padding: 0;
+    }
+
+    .sections {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    /* header */
+
+    .header__nav-list {
+        display: none;
+    }
+
+    /* section__adventure */
+
+    .section__adventure-heading {
+        clip-path: none;
+    }
+
+    .section__adventure-block__link {
+        margin-bottom: 20px;
+    }
+
+    /* section__data */
+
+    .section__data { 
+        margin: auto;
+        /* flex-direction: column; */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: none;
+    }
+
+    .sections {
+        margin-top: 50px;
+    }
+
+    .section__data {
+        margin: auto;
+        text-align: center;
+    }
+
+    .section__data-link {
+        min-height: 120px;
+    }
+}
+
+@media (max-width: 412px) {
+    .section__adventure-heading {
+        font-size: 37px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .section__adventure-heading {
+        font-size: 30px;
+    }
+
+    .section__adventure-p {
+        margin-bottom: 30px;
+    }
+
+    /* section__data */ 
+
+    .section__data-link {
+        width: 100%;
+        min-height: 0;
+    }
+
+    .section__data-link__number {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 412px) {
+
+    .section__adventure-heading {
+        font-size: 40px;
+    }
+
+    .section__adventure-p {
+        margin-bottom: 15px;
+    }
+
+    /* section__data */
+
+    .section__data-link {
+        font-size: 10px;
+        width: 100%;
+        min-height: 0;
+    }
+
+    .section__data-link__number {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: none;
+    }
+
+    .header__block-logo {
+        max-width: 226px;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    .header__logo {
+        max-width: 117px;
+    }
+
+    .section__adventure-heading {
+        font-size: 38px;
+    }
+
+    .section__data {
+        margin: auto;
+    }
+
+    .section__data-link {
+        max-width: 100%;
+        min-height: 120px;
+    }
+}

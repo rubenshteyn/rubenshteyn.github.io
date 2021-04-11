@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="fonts/Montserrat-SemiBold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/Montserrat-Medium.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/Montserrat-ExtraBold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/Montserrat-Light.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/Montserrat-Regular.woff" as="font" type="font/woff" crossorigin>
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Топ Бро</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+        <div class="header__content">
+            <a class="header__logo-link" href="">
+                <img class="header__logo-img" src="img/logo.svg" alt="">
+            </a>
+            <div class="header__nav">
+                <span id="trigger" class="header__trigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+                <ul id="menu" class="header__menu">
+                <li><a class="header__item-link" href="">Блогеры</a></li>
+                <li><a class="header__item-link" href="">Кейсы</a></li>
+                <li><a class="header__item-link" href="">exit agency</a></li>
+                <li><a class="header__item-link" href="">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="header__language">
+                <a class="header__language-link header__item-link" href="">en</a>
+                <span class="header__language-span">/</span>
+                <a class="header__language-link header__item-link" href="">ru</a>
+            </div>
+        </div>
+        <div class="header__block">
+            <a class="header__block-link" href="">Главная</a>
+            <span class="header__span">/</span>
+            <a class="header__block-link" href="">Блогеры</a>
+        </div>
+    </header>
+    <main>
+        <section class="blogers">
+            <h2 class="blogers__heading">Блогеры</h2>
+            <div class="blogers__block1">
+              <span class="blogers__block1-span">Сортировать по:</span>  
+                <!-- пример -->
+                <form>
+                    <div class="select" data-state="">
+                      <div class="select__title" data-default="выберете площадку">выберете площадку</div>
+                      <div class="select__content">
+                        <input id="singleSelect0" class="select__input" type="radio" name="singleSelect" disabled />
+                        <label for="singleSelect0" class="select__label">Например: Путешествия</label>
+                        <input id="singleSelect1" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect1" class="select__label">Все</label>
+                        <input id="singleSelect2" class="select__input" type="radio" name="singleSelect"  />
+                        <label for="singleSelect2" class="select__label">DIY</label>
+                        <input id="singleSelect3" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect3" class="select__label">Авто</label>
+                        <input id="singleSelect4" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect4" class="select__label">Авторское шоу</label>
+                        <input id="singleSelect5" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect5" class="select__label">Анбоксинг</label>
+                        <input id="singleSelect6" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect6" class="select__label">Еда</label>
+                        <input id="singleSelect7" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect7" class="select__label">Животные</label>
+                        <input id="singleSelect8" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect8" class="select__label">Игры</label>
+                        <input id="singleSelect9" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect9" class="select__label">Иностранные языки</label>
+                        <input id="singleSelect10" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect10" class="select__label">Кино</label>
+                        <input id="singleSelect11" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect11" class="select__label">Красота</label>
+                      </div>
+                    </div>
+                  </form>
+                    <form>
+                      <div class="select" data-state="">
+                      <div class="select__title" data-default="выберете направление">выберете направление</div>
+                      <div class="select__content">
+                        <input id="singleSelect12" class="select__input" type="radio" name="singleSelect" disabled />
+                        <label for="singleSelect12" class="select__label">Например: Путешествия</label>
+                        <input id="singleSelect13" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect13" class="select__label">Все</label>
+                        <input id="singleSelect14" class="select__input" type="radio" name="singleSelect"  />
+                        <label for="singleSelect14" class="select__label">DIY</label>
+                        <input id="singleSelect15" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect15" class="select__label">Авто</label>
+                        <input id="singleSelect16" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect16" class="select__label">Авторское шоу</label>
+                        <input id="singleSelect17" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect17" class="select__label">Анбоксинг</label>
+                        <input id="singleSelect18" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect18" class="select__label">Еда</label>
+                        <input id="singleSelect19" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect19" class="select__label">Животные</label>
+                        <input id="singleSelect20" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect20" class="select__label">Игры</label>
+                        <input id="singleSelect21" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect21" class="select__label">Иностранные языки</label>
+                        <input id="singleSelect22" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect22" class="select__label">Кино</label>
+                        <input id="singleSelect23" class="select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect23" class="select__label">Красота</label>
+                      </div>
+                    </div>
+                  </form>
+                
+            </div>
+            <div class="blogers__block2">
+                <a target="_blank" class="blogers__block2-profile1 blogers__block2-profile" href="profile.html">
+                    <p class="blogers__block2-name">Макс Максимов</p>
+                    <div class="blogers__block2-social">
+                        <p class="blogers__block2-el blogers__block2-el1">3 160 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el2">134 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el3">128 000+</p>
+                    </div>
+                </a>
+                <a class="blogers__block2-profile2 blogers__block2-profile" href="profile.html" target="_blank">
+                    <p class="blogers__block2-name">Макс Максимов</p>
+                    <div class="blogers__block2-social">
+                        <p class="blogers__block2-el blogers__block2-el1">3 160 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el2">134 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el3">128 000+</p>
+                    </div>
+                </a>
+                <a class="blogers__block2-profile3 blogers__block2-profile" href="profile.html" target="_blank">
+                    <p class="blogers__block2-name">Макс Максимов</p>
+                    <div class="blogers__block2-social">
+                        <p class="blogers__block2-el blogers__block2-el1">3 160 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el2">134 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el3">128 000+</p>
+                    </div>
+                </a>
+                <a class="blogers__block2-profile4 blogers__block2-profile" href="profile.html" target="_blank">
+                    <p class="blogers__block2-name">Макс Максимов</p>
+                    <div class="blogers__block2-social">
+                        <p class="blogers__block2-el blogers__block2-el1">3 160 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el2">134 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el3">128 000+</p>
+                    </div>
+                </a>
+                <a class="blogers__block2-profile5 blogers__block2-profile" href="profile.html" target="_blank">
+                    <p class="blogers__block2-name">Макс Максимов</p>
+                    <div class="blogers__block2-social">
+                        <p class="blogers__block2-el blogers__block2-el1">3 160 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el2">134 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el3">128 000+</p>
+                    </div>
+                </a>
+                <a class="blogers__block2-profile6 blogers__block2-profile" href="profile.html" target="_blank">
+                    <p class="blogers__block2-name">Макс Максимов</p>
+                    <div class="blogers__block2-social">
+                        <p class="blogers__block2-el blogers__block2-el1">3 160 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el2">134 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el3">128 000+</p>
+                    </div>
+                </a>
+                <a class="blogers__block2-profile7 blogers__block2-profile" href="profile.html" target="_blank">
+                    <p class="blogers__block2-name">Макс Максимов</p>
+                    <div class="blogers__block2-social">
+                        <p class="blogers__block2-el blogers__block2-el1">3 160 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el2">134 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el3">128 000+</p>
+                    </div>
+                </a>
+                <a class="blogers__block2-profile8 blogers__block2-profile" href="profile.html" target="_blank">
+                    <p class="blogers__block2-name">Макс Максимов</p>
+                    <div class="blogers__block2-social">
+                        <p class="blogers__block2-el blogers__block2-el1">3 160 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el2">134 000+</p>
+                        <p class="blogers__block2-el blogers__block2-el3">128 000+</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        
+    </main>
+    </div>
+    <footer class="footer">
+       <div class="container">
+            <div class="footer__content">
+                <a class="footer__logo" href="">
+                    <img class="footer__logo-img header__logo-img" src="img/logo.svg" alt="">
+                </a>
+                <ul class="footer__list">
+                 <li class="footer__list-item">
+                     <a class="footer__item-link" href="">
+                         Cвязаться с нами
+                     </a>
+                 </li>
+                 <li class="footer__list-item">
+                     <a class="footer__item-link" href="">
+                         reklama@wildjam.ru
+                     </a>
+                 </li>
+                 <li class="footer__list-item">
+                     <a class="footer__item-link" href="">
+                         ул. Сущевская, д. 27, стр. 2
+                     </a>
+                 </li>
+                 <li class="footer__list-item">
+                     <a class="footer__item-link" href="">
+                         +7 (499) 393-39-62
+                     </a>
+                 </li>
+                </ul>
+                <div class="footer__social-block">
+                    <a class="footer__social-block-el footer__social-block-el1" href=""></a>
+                    <a class="footer__social-block-el footer__social-block-el2" href=""></a>
+                </div>
+            </div>
+       </div>
+    </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

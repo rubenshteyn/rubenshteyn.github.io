@@ -1,0 +1,169 @@
+/* connects-contacts */
+
+.connects-contacts {
+  display: flex;
+  padding: 44px;
+  padding-bottom: 55px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+
+.p-contacts-head {
+  font-size: 22px;
+  /* margin-right: 74px; */
+  font-weight: 600;
+  color: #666;
+}
+
+.a-contacts {
+  font-weight: 600;
+  padding: 24px 26px;
+  border-radius: 10px;
+  border: 1px solid #cc9933;
+  color: #cc9933;
+}
+
+.a-contacts:focus {
+  color: blue;
+  border-color: blue;
+}
+
+.a-contacts:hover {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #cc9933;
+  cursor: pointer;
+  transition: background color 0.3s ease;
+}
+
+.block-link-contacts {
+  padding-top: 60px;
+}
+
+.link-contacts {
+  margin-bottom: 10px;
+  color: #cc9933;
+}
+
+.link-contacts:focus {
+  color: blue;
+}
+
+.link-contacts:hover {
+  color: #333;
+  transition: color 0,3s ease;
+}
+
+.p-contacts-description {
+  font-weight: 500;
+  padding-top: 5px;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.p-contacts-description-1 {
+  width: 227px;
+  margin-left: 74px;
+}
+
+.p-contacts-description-2 {
+  width: 155px;
+  margin-left: 42px;
+}
+
+.p-contacts-description-3 {
+  width: 230px;
+  margin-left: 82px;
+}
+
+.p-contacts-description-4 {
+  width: 184px;
+  margin-left: 70px;
+}
+
+.contacts-adress {
+  display: flex;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #cccccc;
+  margin-right: 62px;
+}
+
+
+.section-connection {
+  display: flex;
+  padding-top: 18px;
+}
+
+.block-input-connection {
+  display: flex;
+  width: 650px;
+  flex-direction: row;
+}
+
+.heading-connection {
+  padding-left: 0;
+  margin-bottom: 9px;
+}
+
+.a-connection {
+  color: #cc9933;
+}
+
+.a-connection:focus {
+  color: blue;
+}
+
+.a-connection:hover {
+  color: #333;
+  transition: color 0,3s ease;
+}
+
+.p-connection {
+  margin-bottom: 40px;
+  color: #999;
+}
+
+.input-connection {
+  width: 360px;
+  padding: 19px;
+  margin-right: 23px;
+  margin-bottom: 24px;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+.textarea-connection {
+  width: 630px;
+  padding-left: 19px;
+  padding-top: 15px;
+  resize: none;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+.btn-connection {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 25px 127px;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+  background-color: #cc9933;
+  color: #fff;
+}
+
+.btn-connection:focus {
+  background-color: blue;
+  border-color:  blue;
+}
+
+.btn-connection:hover {
+  color: #cc9933;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background color 0.3s ease;
+}
+
+

@@ -1,0 +1,124 @@
+/* Header */
+
+.header {
+  height: 113px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  width: 250px;
+  height: 55px;
+  margin-right: auto;
+}
+
+.header-number {
+  margin-left: 20px;
+  font-weight: 600;
+  margin-right: 560px;
+  color: #666666;
+}
+
+.header-number:focus {
+  color: blue;
+}
+
+.header-number:hover {
+  color: #cc9933;
+  transition: color 200ms ease;
+}
+
+.header-cabinet {
+  margin-left: 540px;
+  color: #cc9933;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  background-color: #fff;
+  border: unset;
+  border-radius: 10px;
+  height: 70px;
+  align-items: center;
+}
+
+.nav-item-first {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: #666;
+  transition: color 0,3s ease;
+}
+
+.nav-link:focus {
+  color: blue;
+}
+
+.nav-link:hover {
+  color: #cc9933;
+  transition: color 200ms ease;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 42px;
+}
+
+.form-search {
+  width: 346px;
+  position: relative;
+  margin-left: 150px;
+}
+
+.btn-search {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background: url('../img/search.svg') no-repeat 50% 50%;
+  background-size: 50%;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.input-search {
+  width: 100%;
+  height: 47px;
+  background-color: #f1f1f1;
+  font-size: 14px;
+  color: #c5c5c5;
+  border: unset;
+  border-radius: 10px;
+  padding-left: 19px;
+}
+
+
+.link-cabinet {
+  font-weight: 500;
+  padding-left: 25px;
+  align-items: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.59 7.41L15.17 11H1V13H15.17L11.58 16.59L13 18L19 12L13 6L11.59 7.41ZM20 6V18H22V6H20Z' fill='%23cc9933'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  color: #cc9933;
+}
+
+.link-cabinet:focus {
+  color: blue;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='blue' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.59 7.41L15.17 11H1V13H15.17L11.58 16.59L13 18L19 12L13 6L11.59 7.41ZM20 6V18H22V6H20Z' fill='blue'/%3E%3C/svg%3E%0A");
+}
+
+.link-cabinet:hover {
+  color: #666;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='blue' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.59 7.41L15.17 11H1V13H15.17L11.58 16.59L13 18L19 12L13 6L11.59 7.41ZM20 6V18H22V6H20Z' fill='%23666'/%3E%3C/svg%3E%0A");
+  transition: color 200ms ease;
+}

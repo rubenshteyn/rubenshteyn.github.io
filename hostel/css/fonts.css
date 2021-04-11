@@ -1,0 +1,31 @@
+@font-face {
+    font-weight: 400; /* насыщенность текста, в данном случае, насыщенность нормальная */
+    font-style: normal; /* жирность шрифта */
+    font-family: "MullerBold"; /* название шрифта, чтобы использовать его в дальнейшем */
+    font-display: swap; /* если данный шрифт не прогрузится, то произойдет замена на запасной, до момента прогрузки основного шрифта*/
+    src: url(../fonts/MullerBold.woff2); /* подключение самого шрифта */
+  }
+
+  @font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "MullerLight";
+    font-display: swap;
+    src: url(../fonts/MullerLight.woff2);
+  }
+
+  @font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "MullerRegular";
+    font-display: swap;
+    src: url(../fonts/MullerRegular.woff2);
+  }
+
+  @font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "MullerMedium";
+    font-display: swap;
+    src: url(../fonts/MullerMedium.woff2);
+  }

@@ -1,0 +1,99 @@
+/* footer */
+
+.section-footer {
+  margin-top: 21px;
+  padding: 47px 47px;
+  padding-bottom: 0;
+  line-height: 2;
+  border-radius: 10px;
+  background-color: #333333;
+}
+
+.container-footer {
+  display: flex;
+}
+
+.footer-left {
+  width: 300px;
+  margin-right: 123px;
+}
+
+.footer-descryption {
+  margin-bottom: 47px;
+  color: #fff;
+}
+
+.link-footer {
+  color: #cc9933;
+}
+
+.link-footer:focus {
+  color: blue;
+}
+
+.link-footer:hover {
+  color: #fff;
+  transition: color 0,3s ease;
+}
+
+.footer-right {
+  width: 500px;
+  height: 400px;
+  background-image: url('../img/logo-footer.svg.png');
+  background-position: 200px 180px;
+  background-repeat: no-repeat;
+}
+
+.content-footer-1 {
+  width: 155px;
+  margin-bottom: 30px;
+}
+
+.container-footer-2 {
+  width: 100px;
+}
+
+.social-footer {
+  max-width: 26px;
+  padding-top: 20px;
+  margin-left: 180px;
+  flex-direction: column;
+}
+
+.link-social-footer {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 30px;
+}
+
+
+.link-social-footer-1 {
+  background-image: url("../img/tripadvisor.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+.link-social-footer-2 {
+  background-image: url("../img/twitter.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+.link-social-footer-3 {
+  background-image: url("../img/facebook.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+.link-social-footer-4 {
+  background-image: url("../img/social.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+.link-social-footer-5 {
+  background-image: url("../img/google-plus-social-logotype.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
