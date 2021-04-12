@@ -142,6 +142,10 @@ section {
   text-align: right;
 }
 
+.burger-close {
+  display: none;
+}
+
 .header__list {
     display: flex;
     align-items: center;
@@ -441,6 +445,30 @@ section {
     background: right center / 3% no-repeat url("../img/+х.svg");
     border-bottom: 1px solid #cacaca;
     color: #333;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+.section__questions-item:hover {
+  border-top: 1px solid #FF9900;
+  border-bottom: 1px solid #FF9900;
+  color: #FF9900;
+  padding-left: 50px;
+  background-position: left center;
+}
+
+.section__questions-item-p {
+  display: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 35px 0px 32px 4px;
+  color: #333;
+  background: rgba(255, 153, 0, 0.2);
+  /* margin-top: 30px; */
+}
+
+.show-p {
+  display: inline-block;
 }
 
 .section__questions-item2 {
@@ -706,6 +734,37 @@ input[type=checkbox]:checked + label::before {
         display: none;
     }
 
+    .header__list {
+      min-height: 381px;
+      flex-direction: column;
+    }
+
+    .header__item {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+
+    .burger-close {
+      display: inline-block;
+      margin-left: auto;
+      font-size: 40px;
+      cursor: pointer;
+    }
+
+    .none {
+      display: none;
+    }
+
+    .show {
+      background: rgba(229, 229, 229, 0.9);
+      display: flex;
+      position: fixed;
+      padding-left: 20px;
+      padding-right: 20px;
+      top: 0;
+      left: 0;
+    }
+
     /*! section__project */
 
     .section__project {
@@ -838,16 +897,16 @@ input[type=checkbox]:checked + label::before {
     margin-right: 93px;
   }
 
-.section__work-heading__mini {
-  font-size: 27px;
-  line-height: 0px;
-  margin-bottom: 20px;
-  }
+  .section__work-heading__mini {
+    font-size: 27px;
+    line-height: 0px;
+    margin-bottom: 20px;
+    }
 
-.section__work__block-1 {
-  padding-top: 18px;
-  margin-right: -35px;
-  }
+  .section__work__block-1 {
+    padding-top: 18px;
+    margin-right: -35px;
+    }
 
     .section__work__block {
       margin-top: 43px;
@@ -1297,6 +1356,26 @@ input[type=checkbox]:checked + label::before {
   .header__logo-link {
     order: 0;
     margin-right: 0;
+  }
+
+  .header__nav {
+    padding-top: 1px;
+  }
+
+  .header__list {
+    min-height: 307px;
+  }
+
+  .show {
+    padding-left: 20px;
+    padding-right: 0px;
+    left: auto;
+    right: 20px;
+  }
+
+  .header__item {
+    font-size: 16px;
+    margin-bottom: 30px;
   }
 
   .header__logo {
