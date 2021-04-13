@@ -26,6 +26,15 @@ section {
     margin-bottom: 50px;
 }
 
+.progress {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 4px;
+    background-color: #fc00ff;
+}
+
 /* header */
 
 .header {
@@ -253,6 +262,41 @@ section {
     .card-item {
         margin-bottom: 40px;
     }
+
+}
+
+/* section__mix */
+
+.section__mix {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-text {
+    font-size: 20px;
+    top: 0;
+    position: absolute;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+}
+
+.footer__block {
+    display: block;
+    max-width: 100%;
+    color: #000;
+    background: rgba(255, 0, 0, 0.9);
+    transition: all 0.3s ease;
+}
+
+.footer__block:hover {
+    padding: 20px;;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
