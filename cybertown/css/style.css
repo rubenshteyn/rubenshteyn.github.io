@@ -1,0 +1,279 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background: 0 0 / cover no-repeat url('https://images4.alphacoders.com/105/105358.jpg');
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0px 30px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    background: rgba(22, 160, 133, 0.1);
+    margin-bottom: 40px;
+}
+
+.glitch {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+    0.025em 0.04em 0 #fffc00;
+    animation: glitch 725ms infinite;
+}
+  
+.glitch span {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+.glitch span:first-child {
+    animation: glitch 500ms infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+    transform: translate(-0.04em, -0.03em);
+    opacity: 0.75;
+}
+  
+.glitch span:last-child {
+    animation: glitch 375ms infinite;
+    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+    transform: translate(0.04em, 0.03em);
+    opacity: 0.75;
+}
+  
+@keyframes glitch {
+    0% {
+        text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+        0.025em 0.04em 0 #fffc00;
+    }
+    15% {
+        text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+        0.025em 0.04em 0 #fffc00;
+    }
+    16% {
+        text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+        -0.05em -0.05em 0 #fffc00;
+    }
+    49% {
+        text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+        -0.05em -0.05em 0 #fffc00;
+    }
+    50% {
+        text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+        0 -0.04em 0 #fffc00;
+    }
+    99% {
+        text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+        0 -0.04em 0 #fffc00;
+    }
+    100% {
+        text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+        -0.04em -0.025em 0 #fffc00;
+    }
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.list-item {
+    
+}
+
+.list-link {
+    display: block;
+    font-size: 20px;
+    margin-right: 40px;
+    color: #000;
+    transition: all 0.7s ease;
+
+}
+
+.list-link:hover {
+    color: #7f5cc2;
+    border-top: 2px solid #fc00ff;
+    text-shadow: 0px 5px 0px rgba(228, 108, 255, 1);
+}
+
+.list-link-last {
+    margin-right: 0;
+    background: url('https://icon-library.com/images/cyber-security-icon/cyber-security-icon-13.jpg');
+}
+
+/* main */
+
+.section__cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.card-item {
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.5s;
+    background: rgba(22, 160, 133, 0.1) center center / 80% no-repeat url('https://icon-library.com/images/cyber-icon/cyber-icon-7.jpg');
+    cursor: pointer;
+    transition: all 0.9s ease;
+}
+
+.card-item:hover {
+    background: rgba(228, 108, 255, 0.3) center center / 80% no-repeat url('https://icon-library.com/images/cyber-security-icon/cyber-security-icon-13.jpg');
+}
+
+.head-card {
+    font-size: 24px;
+}
+
+/* section__text */
+
+.section__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.show-text {
+    background: center left / 100% no-repeat url('https://cdn.iconscout.com/icon/premium/png-256-thumb/cyber-security-1413586-1197455.png');
+}
+
+.block-text {
+    max-width: 100%;
+    padding: 15px 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    background: rgba(228, 108, 255, 0.1);
+    text-shadow: 0px -2px 0px rgba(85, 255, 0, 1);
+}
+
+/* eye */
+
+.section__eye {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-eye {
+    display: inline-block;
+    border: 1px solid #fff;
+    max-width: 100%;
+    padding: 15px 30px;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0px -2px 0px rgba(85, 255, 0, 1);
+    background-color: rgba(115, 90, 255, 0.3);
+    transition: all 0.5s ease;
+}
+
+.btn-eye:hover {
+    background: rgba(115, 90, 255, 0.9) center center / 5% repeat url('https://cdn.iconscout.com/icon/premium/png-256-thumb/cyber-security-1413586-1197455.png');
+}
+
+.eye-p {
+    display: none;
+    padding: 15px 30px;
+    color: #fff;
+    text-shadow: 0px -2px 0px rgba(85, 255, 0, 1);
+}
+
+.show-p {
+    display: inline-block;
+}
+
+@media (max-width: 1024px) {
+    /* header */
+
+    .burger {
+        display: block;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 20px;
+        background: center center / 40px url('https://www.svgrepo.com/show/169724/burger.svg');
+        cursor: pointer;
+    }
+
+    .list {
+        display: none;
+        width: 500px;
+        padding: 15px 30px;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: rgba(22, 160, 133, 0.1);
+    }
+
+    .list-link {
+        font-size: 30px;
+        color: #7f5cc2;
+        text-shadow: 0px 5px 0px rgba(228, 108, 255, 1);
+        margin-bottom: 30px;
+    }
+
+    .show {
+        display: inline-block;
+    }
+
+    /* card */
+
+    .card-item {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* header */
+
+    .list {
+        width: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* header */
+
+    .list {
+        width: 150px;
+    }
+
+    .list-link {
+        font-size: 20px;
+        color: #7f5cc2;
+        text-shadow: 0px 5px 0px rgba(228, 108, 255, 1);
+        margin-bottom: 30px;
+    }
+}
