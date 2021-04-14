@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f1f1f1;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading {
+    font-size: 40px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0px 5px;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+    font-weight: 900;
+    background: rgba(119, 139, 235,0.5);
+}
+
+section {
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background: #e15f41 url('https://freesvg.org/img/1519173978.png');
+}
+
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background: #e15f41;
+}
+
+.header__logo {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: center center / 70px no-repeat url('https://freesvg.org/img/Fruechte-coloured.png');
+    transition: all 0.5s ease;
+}
+
+.header__logo:hover {
+    width: 65px;
+    height: 65px;
+    background: center center / 65px no-repeat url('https://freesvg.org/img/Fruechte-coloured.png');
+}
+
+.header__link {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 21px;
+    margin-right: 30px;
+    color: #333;
+    transition: all 0.5s ease;
+}
+
+.header__link:hover {
+    padding-left: 0;
+    padding-right: 22px;
+    background-position-x: right;
+    color: #778beb;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger {
+    display: none;
+}
+
+.header__link-1 {
+    background: left center / 20px no-repeat url('https://freesvg.org/img/Gerald_G_Simple_Fruit_%28FF_Menu%29_4.png');
+}
+
+.header__link-2 {
+    background: left center / 20px no-repeat url('https://cdn.iconscout.com/icon/free/png-512/apple-fruit-food-vitamin-healthy-31182.png');
+}
+
+.header__link-3 {
+    background: left center / 20px no-repeat url('https://www.svgrepo.com/show/25023/banana.svg');
+}
+
+.header__link-4 {
+    background: left center / 20px no-repeat url('https://www.flaticon.com/svg/static/icons/svg/2836/2836937.svg');
+}
+
+/* slider */
+
+.section__slider {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.slider-fruits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.slide-fruct {
+    width: 250px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: -11px 20px 17px 0px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: -11px 20px 17px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: -11px 20px 17px 0px rgba(255, 255, 255, 0.2);
+}
+
+.slide-fruct:hover {
+    transform: rotate(3deg);
+}
+
+.slide-fruct-1 {
+    background: center center / 70% no-repeat url('https://freesvg.org/img/Gerald_G_Simple_Fruit_%28FF_Menu%29_4.png');
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.slide-fruct-2  {
+    background: center center / 70% no-repeat url('https://cdn.iconscout.com/icon/free/png-512/apple-fruit-food-vitamin-healthy-31182.png');
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.slide-fruct-3 {
+    background: center center / 70% no-repeat url('https://www.svgrepo.com/show/25023/banana.svg');
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.slide-fruct-4 {
+    background: center center / 70% no-repeat url('https://www.flaticon.com/svg/static/icons/svg/2836/2836937.svg');
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.slide-p {
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.click {
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.prev {
+    background: center center / 70% no-repeat url('https://img.icons8.com/plasticine/2x/arrow.png');
+}
+
+.prev:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.next {
+    background: center center / 70% no-repeat url('https://img.icons8.com/plasticine/2x/arrow.png');
+}
+
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* section__tabs */
+
+.section__tabs {
+    display: inline-block;
+    text-align: center;
+}
+
+.tab-block {
+    display: flex;
+    mt30
+}
+
+.tab {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.tab:hover {
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.tab-content {
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px 0 #fff, 1px 1px 0 #fff;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+}
+
+.active {
+    background-position-x: right;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline-block;
+}
+
+/* section__vitamin */
+
+.section__vitamin {
+    text-align: center;
+}
+
+.vitamins {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.vitamin {
+    max-width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid rgba(119, 139, 235,0.5);
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: all 0.9s ease;
+}
+
+.vitamin-1:hover {
+    background: center center / 50px repeat url('https://cdn.iconscout.com/icon/free/png-512/apple-fruit-food-vitamin-healthy-31182.png');
+}
+
+.vitamin-2:hover {
+    background: center center / 50px repeat url('https://cdn.iconscout.com/icon/free/png-512/apple-fruit-food-vitamin-healthy-31182.png');
+}
+
+.vitamin-3:hover {
+    background: center center / 50px repeat url('https://www.svgrepo.com/show/25023/banana.svg');
+}
+
+.vitamin-4:hover {
+    background: center center / 50px repeat url('https://cdn.iconscout.com/icon/free/png-512/apple-fruit-food-vitamin-healthy-31182.png');
+}
+
+.vit-info {
+    display: none;
+    text-align: left;
+    background: rgba(119, 139, 235,0.5);
+    padding: 10px 20px;
+    text-shadow: 1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.show-info {
+    display: inline-block;
+}
+
+@media (max-width: 1024px) {
+    .burger {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        background: center top / 20px no-repeat url('https://www.svgrepo.com/show/25023/banana.svg'), center center / 20px no-repeat url('https://www.svgrepo.com/show/25023/banana.svg'), center bottom / 20px no-repeat url('https://www.svgrepo.com/show/25023/banana.svg');
+        transition: all 0.5s ease;
+        transform: rotate(-50deg);
+    }
+
+    .burger:hover {
+        transform: rotate(150deg);
+    }
+
+    .burger:focus {
+        transform: rotate(150deg);
+    }
+
+    .header__list {
+        width: 400px;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: -8px;
+        right: 23px;
+        padding: 5px 15px;
+        background: rgba(119, 139, 235,1);
+    }
+
+    .header__link-1 {
+        margin-top: 20px;
+    }
+
+    .header__link {
+        margin-bottom: 50px;
+    }
+
+    .show-list {
+        display: flex;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__list {
+        width: 200px;
+    }
+
+    /* tab */
+
+    .tab {
+        padding: 10px 10px;
+    }
+
+    .tab:hover {
+        font-size: 15px;
+    }
+}
