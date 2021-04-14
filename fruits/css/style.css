@@ -318,6 +318,12 @@ section {
     }
 }
 
+@media (max-width: 768px) {
+    .header__list {
+        width: 250px;
+    }
+}
+
 @media (max-width: 320px) {
     .header__list {
         width: 200px;
