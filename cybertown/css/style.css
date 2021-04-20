@@ -161,6 +161,7 @@ section {
 }
 
 .card-item:hover {
+    transform: perspective(600px);
     background: rgba(228, 108, 255, 0.3) center center / 80% no-repeat url('https://icon-library.com/images/cyber-security-icon/cyber-security-icon-13.jpg');
 }
 
@@ -195,8 +196,13 @@ section {
     flex-direction: column;
 }
 
+.acc-eye {
+    display: flex;
+    flex-direction: column;
+}
+
 .btn-eye {
-    display: inline-block;
+    display: block;
     border: 1px solid #fff;
     max-width: 100%;
     padding: 15px 30px;
@@ -229,32 +235,37 @@ section {
         display: block;
         width: 40px;
         height: 40px;
-        position: absolute;
+        position: fixed;
         right: 20px;
+        z-index: 2;
         background: center center / 40px url('https://www.svgrepo.com/show/169724/burger.svg');
         cursor: pointer;
     }
 
     .list {
-        display: none;
-        width: 500px;
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
         padding: 15px 30px;
         flex-direction: column;
-        position: absolute;
+        position: fixed;
+        z-index: 1;
         top: 0;
-        right: 0;
-        background: rgba(22, 160, 133, 0.1);
+        right: -100vw;
+        background: rgba(20, 0, 0, .7);
+        transition: all 0.8s ease;
     }
 
     .list-link {
         font-size: 30px;
-        color: #7f5cc2;
+        color: #fff;
         text-shadow: 0px 5px 0px rgba(228, 108, 255, 1);
         margin-bottom: 30px;
     }
 
     .show {
-        display: inline-block;
+        right: 0vw;
     }
 
     /* card */
@@ -302,21 +313,12 @@ section {
 @media (max-width: 768px) {
     /* header */
 
-    .list {
-        width: 300px;
-    }
 }
 
 @media (max-width: 320px) {
     /* header */
 
-    .list {
-        width: 150px;
-    }
-
     .list-link {
-        font-size: 20px;
-        color: #7f5cc2;
         text-shadow: 0px 5px 0px rgba(228, 108, 255, 1);
         margin-bottom: 30px;
     }
