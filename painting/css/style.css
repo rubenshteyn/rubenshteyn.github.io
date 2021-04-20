@@ -347,6 +347,12 @@ body.lock {
     }
 }
 
+@media (max-width: 480px) {
+    .popup {
+        top: -160vw;
+    }
+}
+
 @media (max-width: 320px) {
     .popup {
         top: -120vw;
