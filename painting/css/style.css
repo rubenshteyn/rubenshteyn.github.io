@@ -349,7 +349,7 @@ body.lock {
 
 @media (max-width: 480px) {
     .popup {
-        top: -160vw;
+        top: -250vw;
     }
 }
 
