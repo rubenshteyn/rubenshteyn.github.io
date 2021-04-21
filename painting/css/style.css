@@ -331,6 +331,14 @@ body.lock {
         margin-top: 0;
     }
 
+    .popup {
+        top: -250vw;
+    }
+
+    .open {
+        top: 0vw;
+    }
+
     /* !love */
 
     .love {
@@ -347,18 +355,21 @@ body.lock {
     }
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
     .popup {
         top: -250vw;
     }
-} */
+    .open {
+        top: 0vw;
+    }
+}
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
     .popup {
-        top: -190vw;
+        top: -250vw;
     }
 
     .open {
         top: 0vw;
     }
-}
+} */
