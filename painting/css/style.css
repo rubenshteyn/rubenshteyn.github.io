@@ -355,7 +355,7 @@ body.lock {
 
 @media (max-width: 320px) {
     .popup {
-        top: -120vw;
+        top: -190vw;
     }
 
     .open {
