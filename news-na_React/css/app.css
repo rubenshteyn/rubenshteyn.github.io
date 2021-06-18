@@ -1,0 +1,98 @@
+.none {
+    display: none;
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    margin-top: 20px;
+    padding: 30px 15px;
+    background: rgba(0, 102, 255, 0.38);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  p {
+    margin: 0 0 5px;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .news {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .article {
+    background: #FFF;
+    border: 1px solid rgba(0, 89, 181, 0.82);
+    margin: 0 0 5px;
+    width: 100%;
+    box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+    padding: 3px 5px;
+  }
+
+  .news__author {
+    text-decoration: underline;
+    color: #007DDC;
+  }
+  .news__count {
+    margin: 10px 0 0 0;
+    display: block;
+  }
+  .test-input {
+    margin: 0 5px 5px 0;
+  }
+  .add {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  .add__author, .add__text, .add__btn, .add__checkrule {
+    display: block;
+    margin: 0 0 5px 0;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid rgba(0, 89, 181, 0.82);
+  }
+  .add__checkrule {
+    border: none;
+    font-size: 12px;
+  }
+  .add__btn {
+    width: 30%;
+    padding: 15px 0px;
+    box-sizing: content-box;
+    color: #FFF;
+    font-size: 11px;
+    text-transform: uppercase;
+    background: #007DDC;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  .add__btn:hover {
+    background: #FFF;
+    color: #007DDC;
+  }
+  .add__btn:disabled {
+    background: #CCC;
+    color: #999;
+  }
+  .news__readmore {
+    color: #007DDC;
+    text-decoration: none;
+    transition: all 0.5s ease;
+  }
+  .news__readmore:hover {
+    color: #FFF;
+    text-decoration: none;
+    background: rgba(0, 102, 255, 0.38);
+  }
