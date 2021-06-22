@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'SignikaNegative-Bold';
+    src: url('../fonts/signikanegative-bold-webfont.woff'),
+    url('../fonts/signikanegative-bold-webfont.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SignikaNegative-Light';
+    src: url('../fonts/signikanegative-light-webfont.woff2'),
+    url('../fonts/signikanegative-light-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SignikaNegative-Regular';
+    src: url('../fonts/signikanegative-regular-webfont.woff2'),
+    url('../fonts/signikanegative-regular-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SignikaNegative-SemiBold';
+    src: url('../fonts/signikanegative-semibold-webfont.woff2'),
+    url('../fonts/signikanegative-semibold-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TektonPro-BoldCond';
+    src: url('../fonts/TektonPro-BoldCond.otf'),
+    url('../fonts/TektonPro-BoldCond.woff'),
+    url('../fonts/TektonPro-BoldCond.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
