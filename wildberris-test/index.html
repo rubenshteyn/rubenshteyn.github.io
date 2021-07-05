@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="img/flavicon.svg" rel="shortcut icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <title>Stat4market</title>
+</head>
+<body>
+    <header>
+            <div class="container">
+                <div class="row header__row">
+                    <div class="header__logo-mobile">
+                        <img src="img/logo-mobile.svg" alt="Логотип">
+                    </div>
+                    <div class="header__logo-main">
+                        <img src="img/main-logo.svg" alt="Логотип">
+                    </div>
+                    <div class="header__logo col-xl-2 сol-lg-2 col-md-2">
+                        <div class="header__logo-container">
+                            <img src="img/ozon.svg" alt="Логотип Озон">
+                            <span> <p>Ozon</p> (№28451)</span>
+                        </div>
+                    </div>
+                    <div class="header__list col-xl-4 сol-lg-4 col-md-4">
+                        <div class="header__list-item header__list-item1">
+                            <div class="header__list-block">
+                                <img src="img/icon_coin.svg" class="header__coin" alt="Coin">
+                                <span class="summ">9 932.00</span>
+                                <img src="img/q.svg" class="header__ruble" alt="Рубль">
+                            </div>
+                            <span class="header__list-item-span">(Хватит ~ 345 дней)</span>
+                            <button>Пополнить</button>
+                        </div>
+                        <div class="header__list-item header__list-item2">
+                            <a href="">
+                                <img src="img/bell.svg" alt="Оповещения">
+                            </a>
+                            <a href="">
+                                <img src="img/user.svg" alt="Пользователь">
+                            </a>
+                            <a class="header__list-item2-user" href="">
+                                <span>Александр</span>
+                                <img src="img/arrow-user.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="burger">
+                        <img src="img/menu.svg" alt="Меню">
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="cabinet">
+                <h1>Личный кабинет</h1>
+                <div class="cabinet__wrap-select">
+                    <select>
+                        <option>Оплата</option>
+                        <option>Настройки</option>
+                        <option>Уведомления</option>
+                        <option>Партнёрская программа</option>
+                        <option>Обучение</option>
+                    </select>
+                </div>
+                <ul>
+                    <li><a href="">Настройки</a></li>
+                    <li><a class="cabinet__active-link" href="">Оплата</a></li>
+                    <li><a href="">Уведомления</a></li>
+                    <li><a href="">Партнёрская программа</a></li>
+                    <li><a href="">Обучение</a></li>
+                </ul>
+            </section>
+
+            <section class="payment">
+                <div class="payment-container">
+                    <h2>Оплата</h2>
+                    <ul>
+                        <li><a href="">Пополнение баланса</a></li>
+                        <li><a href="">Детализация расходов</a></li>
+                        <li><a class="payment__active-link" href="">Тарифы, доп. услуги</a></li>
+                        <li><a href="">История платежей</a></li>
+                    </ul>
+                    <div class="row">
+                        <div class="payment__block payment__block1 col-xl-4 сol-lg-4 сol-md-4">
+                            <div class="payment__block-container">
+                                <span class="payment__block-header payment__block-header1">Wildberries — Аналитика</span>
+                                <p class="payment__block-p">Анализ заказов, продаж, остатков, товарная аналитика по каждому складу маркетплейса</p>
+                                <div class="row payment__block-elements col-xl-11 col-lg-11 col-md-11">
+                                    <div class="payment__block-el payment__block-el1 col-xl-6 сol-lg-6 сol-md-6">
+                                        <div class="payment__block-el1-container">
+                                            <span>Количество товаров</span>
+                                            <p>до 50</p>
+                                            <p>от 51 до 100 </p>
+                                            <p>от 101 до 500</p>
+                                            <p>от 501 до 1000</p>
+                                            <p>от 1001 до 5000</p>
+                                            <p>Безлимитный от 5001</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="payment__block-el payment__block-el2 col-xl-3 сol-lg-3 сol-md-3">
+                                        <div class="payment__block-el2-container">
+                                            <span>Месяц</span>
+                                            <p>2 370 <img src="img/q.svg" alt="Рублей"></p>
+                                            <p>2 970 <img src="img/q.svg" alt="Рублей"></p>
+                                            <p>4 470 <img src="img/q.svg" alt="Рублей"></p>
+                                            <p>7 470 <img src="img/q.svg" alt="Рублей"></p>
+                                            <p>10 470 <img src="img/q.svg" alt="Рублей"></p>
+                                            <p>14 970 <img src="img/q.svg" alt="Рублей"></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="payment__block-el payment__block-el3 col-xl-3 сol-lg-3 сol-md-3">
+                                        <div class="payment__block-el3-container">
+                                            <span>День</span>
+                                            <p>79 <img src="img/q.svg" alt="Рублей"></p>
+                                            <p>99 <img src="img/q.svg" alt="Рублей"></p>
+                                            <p>149 <img src="img/q.svg" alt="Рублей"></p>
+                                            <p>249 <img src="img/q.svg" alt="Рублей"></p>
+                                            <p>349 <img src="img/q.svg" alt="Рублей"></p>
+                                            <p>499 <img src="img/q.svg" alt="Рублей"></p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="payment__block payment__block2 col-xl-4 сol-lg-4 сol-md-4">
+                            <div class="payment__block-container">
+                                <span class="payment__block-header payment__block-header2">Wildberries — Анализ категорий</span>
+                                <p class="payment__block-p">Анализ любых категорий, страниц брендов, поисковых запросов, акций. Безлимитный доступ к данным по всем товарам со страницы, заказам, остатках на складах, скорости заказов и другим метрикам.</p>
+                                <a href="">Добавление страницы в отслеживание — 99<img class="ruble" src="img/q-pink.svg" alt="Рублей">/страница</a>
+                                <p class="payment__block-p p-center">Списывается за уникальную страницу, если вдруг удалили страницу и добавили заново — повторно оплата не снимается</p>
+                                <p class="payment__block-p-end">Ежедневный мониторинг и обновление страниц:</p>
+                                <div class="row payment__block-elements col-xl-11 col-lg-11 сol-md-11">
+                                    <div class="payment__block-el payment__block-el1 col-xl-6 col-lg-6 сol-md-6">
+                                        <div class="payment__block-el1-container">
+                                            <span>Количество страниц</span>
+                                            <p>до 3</p>
+                                            <p>от 4 до 10 </p>
+                                            <p>от 11 до 20</p>
+                                            <p>от 21 до 50</p>
+                                            <p>Безлимитный от 51 </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="payment__block-el payment__block-el2 col-xl-3 col-lg-3 сol-md-3">
+                                        <div class="payment__block-el2-container">
+                                            <span>Месяц</span>
+                                            <p>0<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>0<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>0<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>0<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>0<img src="img/q.svg" alt="Рублей"></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="payment__block-el payment__block-el3 col-xl-3 col-lg-3 сol-md-3">
+                                        <div class="payment__block-el3-container">
+                                            <span>День</span>
+                                            <p>0<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>0<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>0<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>0<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>0<img src="img/q.svg" alt="Рублей"></p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="payment__block payment__block3 col-xl-4 сol-lg-4 сol-md-4">
+                            <div class="payment__block-container">
+                                <span class="payment__block-header payment__block-header3">Wildberries — Позиции товаров</span>
+                                <p class="payment__block-p">Анализ позиций любых товаров на страницах категорий, бренда, поисковых запросов, акций.</p>
+                                <a href="">Добавление нового товара — 29 <img class="ruble" src="img/q-pink.svg" alt="Рублей"> /товар</a>
+                                <p class="payment__block-p">Списывается за уникальный товар, если вдруг удалили товар и добавили заново - повторно оплата не списывается.</p>
+                                <p class="payment__block-p-end">Ежедневный мониторинг позиций:</p>
+                                <div class="row payment__block-elements col-xl-11 сol-lg-11 сol-md-11">
+                                    <div class="payment__block-el payment__block-el1 col-xl-6 сol-lg-6 сol-md-6">
+                                        <div class="payment__block-el1-container">
+                                            <span>Количество товаров</span>
+                                            <p>до 20</p>
+                                            <p>от 21 до 100 </p>
+                                            <p>от 101 до 500</p>
+                                            <p>от 501 до 1000</p>
+                                            <p>от 1001 до 5000 </p>
+                                            <p>Безлимитный от 5001</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="payment__block-el payment__block-el2 col-xl-3 сol-lg-3 сol-md-3">
+                                        <div class="payment__block-el2-container">
+                                            <span>Месяц</span>
+                                            <p>870<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>1 470<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>2 970<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>4 470<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>7 470<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>8 970<img src="img/q.svg" alt="Рублей"></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="payment__block-el payment__block-el3 col-xl-3 сol-lg-3 сol-md-3">
+                                        <div class="payment__block-el3-container">
+                                            <span>День</span>
+                                            <p>29<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>49<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>99<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>149<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>249<img src="img/q.svg" alt="Рублей"></p>
+                                            <p>299<img src="img/q.svg" alt="Рублей"></p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services">
+                <h2>Дополнительные услуги:</h2>
+                <p class="services__p">Помощь от команды Stat4market, основателя сервиса и партнеров, для увеличения продаж и помощи по работе с маркетплейсом.</p>
+                <div class="row">
+                    <div class="services__block services__block1">
+                        <div class="services__block-img">
+                            <img src="img/img.png" alt="">
+                        </div>
+                        <div class="services__block-content">
+                            <div class="services__block-content-block1 col-xl-10 col-lg-10 сol-md-10">
+                                <span class="services__block-content-block-head">Оптимизация продаж на маркетплейсе</span>
+                                <p>Наш основной продукт для тех, кто уже продаёт на Wildberries, направленный напрямую на увеличение вашей прибыли от работы с маркетплейсом. В нашем сервисе уже несколько сотен поставщиков и мы понимаем основные ошибки поставщиков, которые тормозят их рост и рычаги увеличения ваших продаж на маркетплейсах. Наша команда и основатель сервиса Дмитрий Бакланов проанализирует ваш бренд, найдут точки роста, оптимизации товаров.</p>
+                                <p>Для начала работы необходимо заполнить заявку по ссылке «Заказать».</p>
+                                <div class="services__block-content-block-check">
+                                    <img src="img/check_in_circle.svg" alt="">
+                                    <p>Вы получите полное понимание своих дальнейших действий для развития бренда, также чек-лист из более 30 пунктов по улучшениям или проблемам именно вашего бренда для оптимизации, увеличения выручки и прибыли</p>
+                                </div>
+                            </div>
+                            <div class="services__block-content-block2 col-xl-2 col-lg-2 сol-md-2">
+                                <span class="summ summ-before">29 900 <img src="img/q-blue.svg" alt="Рублей"></span>
+                                <span class="summ summ-after">24 900 <img src="img/q.svg" alt="Рублей"></span>
+                                <span class="time">2 часа</span>
+                                <button>Заказать</button>
+                                <a href="">Подробее об услуге</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__block services__block1 services__block2">
+                        <div class="services__block-img">
+                            <img src="img/img (1).png" alt="">
+                        </div>
+                        <div class="services__block-content">
+                            <div class="services__block-content-block1 col-xl-10 col-lg-10 сol-md-10 block-open">
+                                <span class="services__block-content-block-head">Помощь в выходе на маркетплейс</span>
+                                <p>Продукт для тех кто только собирается выйти на Wildberries. Состоит из пошагового плана со всеми этапами выхода на маркетплейс до первой поставки а также 2-х часовая консультация с экспертом, ответы на все вопросы. Необходимо предварительно заполнить заявку по ссылке «Заказать».</p>
+                                <div class="services__block-content-block-check services__block-content-block-check2">
+                                    <img src="img/check_in_circle.svg" alt="">
+                                    <p>Вы получите ответы на все вопросы, которые мешают выйти и поставить ваши товары на Wildberries.</p>
+                                </div>
+                            </div>
+                            <div class="services__block-content-block1 col-xl-10 col-lg-10 сol-md-10 block-hide">
+                                <span class="services__block-content-block-head">Конкурентный анализ</span>
+                                <p>Наш сервис анализирует уже более миллиона товаров на Wildberries, если вы хотите получить комплексный анализ товаров конкурентов или категорий, в которые планируете выйти, то этот продукт для Вас. Наши специалисты соберут и соединят для вас в удобном формате всю необходимую информацию по продажам нужных Вам категорий, брендов, товаров. Подскажут слабые места, просадки в поставках и точки роста в тех категориях, в которые вы планируете выйти.</p>
+                                <div class="services__block-content-block-check services__block-content-block-check2">
+                                    <img src="img/check_in_circle.svg" alt="">
+                                    <p>В результате анализа вы получите полную сводку необходимой информации, а также рекомендации по работе в выбранной категории от наших экспертов.</p>
+                                </div>
+                            </div>
+                            <div class="services__block-content-block2 col-xl-2 col-lg-2 сol-md-2">
+                                <span class="summ summ-before">9 900 <img src="img/q-blue.svg" alt="Рублей"></span>
+                                <span class="summ summ-after">4 900 <img src="img/q.svg" alt="Рублей"></span>
+                                <span class="time">2 часа</span>
+                                <button>Заказать</button>
+                                <a href="">Подробее об услуге</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
